@@ -1,7 +1,7 @@
 # ProgrammingTasks
 This repository is created for students to work upon programming tasks
 
-##Instructions
+## Instructions ##
 Students need to fork the tasks and create their individual repository from it
 ![picture](https://github.com/MIETDevelopers/ProgrammingTasks/blob/master/clone1.jpg)
 
