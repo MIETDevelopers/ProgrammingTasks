@@ -1,0 +1,3 @@
+- Refer the main Readme.md file of this repository. 
+- You need to upload the output image of each script execution in this folder
+- Refer image url inside this file mapped with the problem script name
