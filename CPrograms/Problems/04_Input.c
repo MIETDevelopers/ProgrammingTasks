@@ -1,18 +1,22 @@
-/* Author
-   Date
+// Author:-lavanya sharma
 
-     what to do
- 1) Declare a variable to get the name and age from user and Display the year when he will become 100 year old
-    Expected Output: you will be 100 in the year ____
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int num, count, sum = 0;
+    float avg = 0.0, limit;
+ printf("Enter the limit");
+  scanf("%f", &limit);
+    printf("Enter %f numbers", limit);
+    for(count = 1; count <= limit; count++)
+    {
+        scanf("%d", &num);
+        sum = sum + num;
+    }
+    avg = sum / limit;
 
- 2) Declare a variable that takes hours and minutes as input, and calculates the total number of minutes. 
-    Expected Output :
-    Input hours: 5
-    Input minutes: 37
-    Total: 337 minutes.
- 3)  Define a variable to get two numbers from user and display the addition, multiplication and division of these two numbers
-     Expected Output :The addition of two numbers:
-                      The subtraction of two numbers:
-                      The multiplication of two numbers:
-
-  */
+    printf("Sum = %dAverage = %0.2f", sum, avg);
+    getch();
+    return 0;
+}
